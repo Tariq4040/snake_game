@@ -1,0 +1,12 @@
+jb pygame ko init() k zrea initialize kea to neche wala error aya
+pygame.init()-->>Module 'pygame' has no 'init' member
+jb pygame ko quit() k zrea quit kea to neche wala error aya
+pygame.quit()-->>Module 'pygame' has no 'quit' member
+
+es error ka solution neche wali 2no lines likhne se solve ho gya tha.....noraml pygame ko import kea tha like
+'import pygame' but es trha error exist hwa but pygame ko neche wale method k through import kea to tkk ho gya
+
+en 2 line k sath error corect to ho hi jata h but es k lea ple 'pip uninstall pylint' krna prhta h,es ko uninstall kea baghair ye problem solve ni hota.mtlb ye 2 line likhne k sath cmd k zrea hme pylnt b uninstall krna h.
+
+from pygame import * #this will import everything inside the pygame module
+import pygame
